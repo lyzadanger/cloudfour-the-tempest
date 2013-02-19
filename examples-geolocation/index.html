@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>W3C Geolocation Testing</title>
+  <script>
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError);
+  } else {
+    alert('Sorry, Geolocation not supported in this browser!');
+  }
+  function onGeoSuccess(position) {
+    var coordinates = position.coords;
+    alert(coordinates.latitude + ", " + coordinates.longitude);
+  }
+  function onGeoError(error) {
+    alert(error.message);
+  }
+  </script>
+</head>
+<body>
+<h1>Geolocation Example</h1>
+</body>
+</html>

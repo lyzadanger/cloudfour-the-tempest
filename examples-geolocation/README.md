@@ -1,0 +1,1 @@
+*Note*: Because of browser security settings, this page and its geolocation JavaScript may not function if you view this web page (`index.html`) as a file. View using a web server, if possible.
