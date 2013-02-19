@@ -261,7 +261,7 @@ span.song {
   font-style : italic;
 }
 
-.glossed .glossary {
+.glossed .glossary, .glossed sup {
   display : none;
 }
 

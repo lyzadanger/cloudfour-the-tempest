@@ -58,6 +58,7 @@
         $glossItems.addClass('gloss-item').toggleClass('gloss-item-saved', storage.has(glossId));
         $glossItems.bind('click.show-gloss', methods.show);
       });
+      $('body').addClass('glossed');
     },
     show: function() {
       var $content, $popup, glossId, top, left, popupWidth;   

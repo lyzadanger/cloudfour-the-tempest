@@ -15,6 +15,7 @@
         $glossItems.addClass('gloss-item');
         $glossItems.click(function(event) { $(this).gloss('show'); });
       });
+      $('body').addClass('glossed');
     },
     show: function() {
       var $content, $popup, top, left, popupWidth;   

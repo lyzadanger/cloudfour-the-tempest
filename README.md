@@ -9,3 +9,4 @@ Sample simple mobile- and pan-device web page with progressive enhancements
 4. **Step 4: Enhancing and Polyfilling**. Modernizr for feature detection; IE HTML5 polyfill via HTML5Shiv; web fonts; glossary with CSS columns.
 5. **Step 5: Enhancing with Interactivity**. Optimized, mobile-friendly popups for glossed items.
 6. **Step 6: Device APIs**. Using `localStorage` where supported to save glossary items.
+7. **Step 7: Performance**. Performance enhancements via compression, minification, concatenation, reorganization, and a sample `.htaccess` file.
