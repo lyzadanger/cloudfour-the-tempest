@@ -1,0 +1,172 @@
+/* http           ://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License        : none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin          : 0;
+  padding         : 0;
+  border          : 0;
+  font-size       : 100%;
+  font            : inherit;
+  vertical-align  : baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display         : block; }
+
+body {
+  line-height     : 1; }
+
+ol, ul {
+  list-style      : none; }
+
+blockquote, q {
+  quotes          : none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content         : '';
+  content         : none; }
+
+table {
+  border-collapse : collapse;
+  border-spacing  : 0; }
+
+/** Baseline CSS **/
+
+html {
+  font-size       : 100%;
+  font-family     : Georgia, serif;
+}
+
+body {
+  background-color: #f9faef;
+  color           : #443333; }
+
+h1 {
+  font-size       : 2.5em;
+  color           : #d94343;
+  text-transform  : lowercase;
+  font-variant    : small-caps;
+}
+
+h2 {
+  font-weight     : 700; }
+
+h2, h4 {
+  display         : inline;
+}
+
+section {
+  margin          : .5em; }
+
+figure {
+  display: block;
+}
+
+figcaption {
+  padding: .25em;
+  font-size: .85em;
+  font-style: italic;
+}
+
+img, object {
+  max-width: 100%;
+}
+
+/* Re-usable Modules */
+
+.scene {
+  line-height     : 1.333em;
+  max-width       : 28em;
+}
+.scene dl {
+  width           : 100%;
+}
+.scene dl dt {
+  color           : #222211;
+  font-size       : 1.125em;
+  text-transform  : lowercase;
+  font-variant    : small-caps;
+  clear           : left;
+}
+.scene dl dd {
+  margin          : 0 0 .5em 0;
+}
+.scene em {
+  font-size       : .85em;
+  margin          : 0 .25em;
+}
+
+.stage-direction {
+  font-style      : italic;
+}
+.stage-direction strong {
+  text-transform  : lowercase;
+  font-variant    : small-caps;
+  font-style      : normal;
+}
+span.stage-direction {
+  display         : block;
+  float           : none;
+}
+
+/** Different kinds of lines **/
+
+span.verse {
+  clear           : both;
+  display         : block;
+  text-indent     : -1.5em;
+  margin-left     : 1.5em;
+}
+
+span.verse-end {
+  display         : block;
+  float           : right;
+  padding-right   : 2em;
+  clear           : right;
+}
+
+span.song {
+  display         : block;
+  text-align      : center;
+}
+
+@media all and (min-width: 50em) {
+  body {
+    font-size: 1.125em;
+  }
+  h1 {
+    font-size: 4em;
+  }
+  section {
+    margin: .5em 1em;
+  }
+  .scene {
+    float: left;
+  }
+  .scene dl dt, .scene dl em {
+    float: left;
+    margin-right: .25em;
+  }
+  .scene dl dd {
+    margin: .5em 0 .5em 1.25em;
+  }
+  span.prose {
+    display: block;
+    clear: right;
+  }
+}

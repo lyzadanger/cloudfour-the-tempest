@@ -1,0 +1,27 @@
+html.fontface {
+  font-family: "sorts_mill_goudy", Georgia, serif;
+  font-weight: normal;
+}
+body {
+  font-size: 1.125em;
+}
+h1 {
+  font-size: 4em;
+}
+section {
+  margin: .5em 1em;
+}
+.scene {
+  float: left;
+}
+.scene dl dt, .scene dl em {
+  float: left;
+  margin-right: .25em;
+}
+.scene dl dd {
+  margin: .5em 0 .5em 1.25em;
+}
+span.prose {
+  display: block;
+  clear: right;
+}
